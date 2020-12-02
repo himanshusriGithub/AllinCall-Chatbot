@@ -1,0 +1,393 @@
+.main {
+  margin: 70px auto;
+  display: block;
+  background-color: #E5E5E5;
+  visibility: hidden;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn ease 2s forwards;
+  -webkit-animation: fadeIn ease 2s forwards;
+  -moz-animation: fadeIn ease 2s forwards;
+  -o-animation: fadeIn ease 2s forwards;
+  -ms-animation: fadeIn ease 2s forwards;
+}@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
+
+}
+
+.robotEllipse {
+  width: 67px;
+  height: 67px;
+  background: linear-gradient(rgba(255,118,0,1), rgba(255,92,0,1));
+   
+  position: absolute;
+  top: 165px;
+  left: 38px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15000000596046448);
+}
+
+.robotPic {
+   
+  position: relative;
+  top: 15px;
+  left: 15px;
+}
+
+.appText {
+  color: rgba(45,45,45,1);
+  left: 35px;
+  position: absolute;
+  font-family: DM Sans;
+  font-weight: Regular;
+  font-size: 12px;
+   
+  text-align: left;
+}
+
+.bulletGroup {
+  width: 14px;
+  height: 14px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+   
+  left: 10px;
+  position: absolute;
+  overflow: hidden;
+}
+.bulletPoint {
+  width: 8px;
+  height: 8px;
+  background: rgba(255,118,0,0.800000011920929);
+   
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  border-radius: 50%;
+}
+
+.bulletShadow {
+  width: 14px;
+  height: 14px;
+  background: rgba(255,118,0,0.15000000596046448);
+   
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-radius: 50%;
+}
+
+.initQ1 {
+  width: 251;
+  top: 18px;
+}
+
+.initQ2 {
+  width: 184px;
+  top: 18px;
+}
+
+.initQ3 {
+  width: 213px;
+  top: 18px;
+}
+
+.initQ4 {
+  width: 202px;
+  top: 18px;
+}
+
+.main {
+  width: 416px;
+  height: 629px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.07999999821186066);
+  overflow: hidden;
+}
+
+.topHalf {
+  width: 416px;
+  height: 278px;
+  background: linear-gradient(rgba(245,130,31,1), rgba(255,92,0,1));
+   
+  position: absolute;
+  top: 1px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.title {
+  width: 53px;
+  color: rgba(255,255,255,1);
+  top: 19px;
+  left: 56px;
+  font-weight: Bold;
+  font-size: 30px;
+}
+
+.hello {
+  width: 54px;
+  color: rgba(255,255,255,1);
+  top: 65px;
+  left: 56px;
+  font-weight: Bold;
+  font-size: 22px;
+}
+
+.initialText {
+  width: 228px;
+  color: rgba(255,255,255,1);
+  top: 104px;
+  left: 56px;
+  font-weight: Medium;
+  font-size: 18px;
+}
+
+.midBox {
+  width: 390px;
+  height: 400px;
+  background: rgba(255,255,255,1);
+   
+  position: absolute;
+  top: 199px;
+  left: 13px;
+  border: 1px solid rgba(228,228,228,1);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05000000074505806);
+  overflow: hidden;
+}
+
+.faq {
+  width: 188px;
+  color: rgba(45,45,45,1);
+  top: 49px;
+  left: 39px;
+  font-weight: Medium;
+  font-size: 14px;
+}
+
+.faqIcon {
+  position: relative;
+  width: 21.98px;
+  height: 21.98px;
+  left: 228.51px;
+  top: 45.51px;
+}
+
+.newConv {
+  width: 268px;
+  height: 44px;
+  background: rgba(255,255,255,1);
+   
+  position: absolute;
+  top: 334px;
+  left: 65px;
+  border: 1px solid rgba(209,209,209,1);
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.10000000149011612);
+  overflow: hidden;
+}
+
+.newConvText {
+  width: 168px;
+  color: rgba(45,45,45,1);
+  top: 10px;
+  left: 60px;
+  font-weight: Medium;
+  font-size: 14px;
+}
+
+.newConvIcon {
+  width: 14px;
+  height: 14px;
+  background: rgba(255,255,255,1);
+   
+  position: absolute;
+  top: 13px;
+  left: 40px;
+  overflow: hidden;
+}
+
+.helloIcon {
+  width: 25px;
+  height: 25px;
+   
+  position: absolute;
+  top: 66px;
+  left: 115px;
+  overflow: hidden;
+}
+
+.textRectangle {
+  width: 339px;
+  height: 50px;
+  background: rgba(255,255,255,1);
+   
+  position: absolute;
+  left: 25px;
+  border: 1px solid rgba(225,225,225,1);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05000000074505806);
+  overflow: hidden;
+}
+
+.ques1 {
+  top: 78px;
+}
+
+.ques2 {
+  top: 137px;
+}
+
+.ques3 {
+  top: 196px;
+}
+
+.ques4 {
+  top: 255px;
+}
+
+
+.chatBox {
+  position: absolute;
+  width: 327px;
+  height: 40px;
+  left: 18px;
+  top: 346px;
+  background: rgba(180, 187, 190, 0.37);
+  border-radius: 14px;
+}
+
+.sendButton {
+  position: absolute;
+  width: 27px;
+  height: 32px;
+  left: 355px;
+  top: 350px;
+}
+
+.messageBox {
+  position: absolute;
+  width: 264px;
+  height: 100px;
+  left: 33px;
+  top: 78px;
+  overflow: auto;
+  background: #FFEDCB;
+  border-radius: 15px;
+}
+
+.messageButtons {
+  position: absolute;
+  width: 90px;
+  height: 29px;
+  left: 40px;
+  top: 190px;
+
+  background: #FFFFFF;
+  border: 3px solid #FF9900;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+#topContent {
+  animation-delay: 2s;
+}
+
+#Q1 {
+  animation-delay: 8s;
+}
+
+#Q2 {
+  animation-delay: 10s;
+}
+
+#Q3 {
+  animation-delay: 12s;
+}
+
+#Q4 {
+  animation-delay: 14s;
+}
+
+#newChat {
+  animation-delay: 16s;
+}
+
+.launchButton {
+  width: 67px;
+  height: 67px;
+  background: linear-gradient(rgba(255,118,0,1), rgba(255,92,0,1));
+  top:30%;
+  left: 45%; 
+  position: absolute;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15000000596046448);
+
+}
+
+#launchText {
+  top: 40%;
+  left: 44.3%;
+}

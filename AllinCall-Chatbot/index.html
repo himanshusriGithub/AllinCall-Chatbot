@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="main.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Silka&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet" />
+    <title>Chatbot - AllinCall</title>
+</head>
+
+<body> 
+    <div class="wrapper">
+        <div class ="launchButton">
+            <img src="images/robot.png" class="robotPic">
+        </div>
+        <span class="appText" id="launchText">Click me to chat!</span>
+        <div class="main" id="main">  
+            <!--FADE 1-->
+            <div class="topHalf fade-in">
+            </div>
+            
+            <!--FADE 2-->
+            <div class="fade-in" id="topContent">
+                <span class="title appText">IRIS</span>
+                <span class="hello appText">Hello</span>
+                <span class="initialText appText">I am Iris, a Virtual Assistant
+                    How may I help you?
+                </span>
+                <img src="images/wave-hand.png" class="helloIcon">
+                <div class= "robotEllipse">
+                    <img src="images/robot.png" class="robotPic">
+                </div> 
+            </div>    
+
+            <!--FADE 3-->
+            <div class="midBox fade-in" style="animation-delay: 4s;" id="midBox">    
+                <span class="faq appText fade-in" style="animation-delay: 6s;">Frequently Asked Questions</span>
+                <img src="images/qmark-faq.png" class="faqIcon fade-in" style="animation-delay: 6s;">
+                <div class="newConv fade-in" id="newChat">
+                    <span class="newConvText appText">Start a New Conversation</span>
+                    <img src="images/chat-icon.png" class="newConvIcon">
+                </div>
+            
+                <div class="textRectangle ques1 fade-in" id="Q1">
+                    <div class="bulletGroup" style="top: 18px;">
+                        <div class="bulletPoint"></div>
+                        <div class="bulletShadow"></div>
+                    </div>
+                    <span class="appText initQ1">Can I redeem my FD before the original term?</span>
+                </div>
+
+                <div class="textRectangle ques2 fade-in" id="Q2">
+                    <div class="bulletGroup"  style="top: 18px;">
+                        <div class="bulletPoint"></div>
+                        <div class="bulletShadow"></div>
+                    </div>
+                    <span class="appText initQ2">How do I pay my Credit card bill?</span>
+                </div>
+
+                <div class="textRectangle ques3 fade-in" id="Q3">
+                    <div class="bulletGroup" style="top: 18px;">
+                        <div class="bulletPoint"></div>
+                        <div class="bulletShadow"></div>
+                    </div>
+                    <span class="appText initQ3">How can I get my Account Statement?</span>
+                </div>
+        
+                <div class="textRectangle ques4 fade-in" id="Q4">
+                    <div class="bulletGroup" style="top: 18px;">
+                        <div class="bulletPoint"></div>
+                        <div class="bulletShadow"></div>
+                    </div>
+                    <span class="appText initQ4">What is the tenure of Fixed Deposit?</span>
+                </div>
+            </div>  
+            <div class= "robotEllipse fade-in" style="animation-delay: 4s;">
+                <img src="images/robot.png" class="robotPic">
+            </div>  
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
